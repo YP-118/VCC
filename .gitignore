@@ -1,9 +1,11 @@
+/data
+/outputs
+
 *.pth
 *.pt
 *.h5ad
 *.h5
-*.csv
-*.toml
+
 
 *.log
 *.tmp
