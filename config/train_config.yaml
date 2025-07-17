@@ -4,7 +4,7 @@
 
 train_data: data/competition_train.h5
 esm2_path: data/ESM2_pert_features.pt
-save_path: outputs/newmean.pth
+save_path: outputs/models/mean.pth # <-- requires update per run
 
 model:
   input_dim: 5120
