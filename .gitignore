@@ -1,15 +1,9 @@
-data/
-!data/.gitkeep
-
-outputs/
-!outputs/.gitkeep
-!outputs/models/
-!outputs/predictions/
-outputs/models/*
-outputs/predictions/*
-
 *.pth
+*.pt
 *.h5ad
+*.h5
+*.csv
+*.toml
 
 *.log
 *.tmp
