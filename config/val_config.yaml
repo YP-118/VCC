@@ -1,0 +1,10 @@
+# config/val_config.yaml
+
+# Example usage for predicting using mean.
+
+model_path: outputs/models/mean.pth # <-- requires update per run
+esm2_path: data/ESM2_pert_features.pt
+val_csv_path: data/pert_counts_Validation.csv
+train_h5ad: data/competition_train.h5
+save_path: outputs/predictions/mean.h5ad  # <-- requires update per run
+n_control_cells: 1000

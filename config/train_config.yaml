@@ -1,0 +1,17 @@
+# config/train_config.yaml
+
+# Example usage for predicting using mean.
+
+train_data: data/competition_train.h5
+esm2_path: data/ESM2_pert_features.pt
+save_path: outputs/newmean.pth
+
+model:
+  input_dim: 5120
+  output_dim: 18080
+  dropout_rate: 0.1
+
+training:
+  batch_size: 32
+  epochs: 30
+  lr: 0.0001
