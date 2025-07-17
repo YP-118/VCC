@@ -1,5 +1,12 @@
 data/
+!data/.gitkeep
+
 outputs/
+!outputs/.gitkeep
+!outputs/models/
+!outputs/predictions/
+outputs/models/*
+outputs/predictions/*
 
 *.pth
 *.h5ad
